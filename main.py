@@ -6,8 +6,13 @@ class Character:
         self.jp_va = jp_va
 
 def main():
-    print("Hello world")
-    print("Github Test")
+    character_list = [
+        Character("Index", "A Certain Magical Index", "Yuka Iguchi", "Monical Rial")
+    ]
+
+    x = Character("Index", "A Certain Magical Index", "Yuka Iguchi", "Monical Rial")
+
+    print(f"Name: {x.name}")
 
 
 if __name__ == "__main__":
