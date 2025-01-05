@@ -10,10 +10,13 @@ def main():
         Character("Index", "A Certain Magical Index", "Yuka Iguchi", "Monical Rial"),
         Character("Mikoto Misaka", "A Certain Magical Index", "Rina Satou", "Brittney Karbowski"),
         Character("Kaguya Yami", "Date A Live", None, "Brittney Karbowski"),
-        Character("Yoshino", "Date A Live", None, "Tia Ballard"),
-        Character("Yue", "Arifureta", None, "Tia Ballard")
+        Character("Yoshino", "Date A Live", "Tia Ballard", None),
+        Character("Yue", "Arifureta", "Tia Ballard", None),
+        Character("Hajime Nogumo", "Arifureta", "Matt Shipman", None),
+        Character("Kouki Amanogawa", "Arifureta", "Ricco Fajardo", None),
+        Character("Chrome", "Dr. Stone", "Matt Shipman", None),
+        Character("Taiju", "Dr. Stone", "Ricco Fajardo", None)
     ]
-
 
 if __name__ == "__main__":
     main()
