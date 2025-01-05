@@ -15,7 +15,12 @@ def main():
         Character("Hajime Nogumo", "Arifureta", "Matt Shipman", None),
         Character("Kouki Amanogawa", "Arifureta", "Ricco Fajardo", None),
         Character("Chrome", "Dr. Stone", "Matt Shipman", None),
-        Character("Taiju", "Dr. Stone", "Ricco Fajardo", None)
+        Character("Taiju", "Dr. Stone", "Ricco Fajardo", None),
+        Character("Leen", "In Another World With My Smartphone", "Monical Rial", "Sumire Uesaka"),
+        Character("Charlotte", "Parallel World Pharmacy", "Lindsay Siedel", None),
+        Character("Kirisame", "Dr. Stone", "Lindsay Siedel", None),
+        Character("Sense", "Frieren: Beyond Journey's End", "Lindsay Siedel", None),
+        Character("Irisphilia", "Am I Actually the Strongest", "Linday Siedel", None)
     ]
 
 if __name__ == "__main__":
