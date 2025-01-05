@@ -7,12 +7,10 @@ class Character:
 
 def main():
     character_list = [
-        Character("Index", "A Certain Magical Index", "Yuka Iguchi", "Monical Rial")
+        Character("Index", "A Certain Magical Index", "Yuka Iguchi", "Monical Rial"),
+        Character("Mikoto Misaka", "A Certain Magical Index", "Rina Satou", "Brittney Karbowski"),
+        Character("Kaguya Yami", "Date A Live", None, "Brittney Karbowski")
     ]
-
-    x = Character("Index", "A Certain Magical Index", "Yuka Iguchi", "Monical Rial")
-
-    print(f"Name: {x.name}")
 
 
 if __name__ == "__main__":
