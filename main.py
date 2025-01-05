@@ -9,7 +9,9 @@ def main():
     character_list = [
         Character("Index", "A Certain Magical Index", "Yuka Iguchi", "Monical Rial"),
         Character("Mikoto Misaka", "A Certain Magical Index", "Rina Satou", "Brittney Karbowski"),
-        Character("Kaguya Yami", "Date A Live", None, "Brittney Karbowski")
+        Character("Kaguya Yami", "Date A Live", None, "Brittney Karbowski"),
+        Character("Yoshino", "Date A Live", None, "Tia Ballard"),
+        Character("Yue", "Arifureta", None, "Tia Ballard")
     ]
 
 
