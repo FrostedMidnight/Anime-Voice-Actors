@@ -7,6 +7,7 @@ class Character:
 
 def main():
     print("Hello world")
+    print("Github Test")
 
 
 if __name__ == "__main__":
