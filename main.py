@@ -7,9 +7,9 @@ class Character:
 
 def main():
     character_list = [
-        Character("Index", "A Certain Magical Index", "Yuka Iguchi", "Monical Rial"),
-        Character("Mikoto Misaka", "A Certain Magical Index", "Rina Satou", "Brittney Karbowski"),
-        Character("Kaguya Yami", "Date A Live", None, "Brittney Karbowski"),
+        Character("Index", "A Certain Magical Index", "Monical Rial", "Yuka Iguchi"),
+        Character("Mikoto Misaka", "A Certain Magical Index", "Brittney Karbowski", "Rina Satou"),
+        Character("Kaguya Yami", "Date A Live", "Brittney Karbowski", None),
         Character("Yoshino", "Date A Live", "Tia Ballard", None),
         Character("Yue", "Arifureta", "Tia Ballard", None),
         Character("Hajime Nogumo", "Arifureta", "Matt Shipman", None),
@@ -20,7 +20,13 @@ def main():
         Character("Charlotte", "Parallel World Pharmacy", "Lindsay Siedel", None),
         Character("Kirisame", "Dr. Stone", "Lindsay Siedel", None),
         Character("Sense", "Frieren: Beyond Journey's End", "Lindsay Siedel", None),
-        Character("Irisphilia", "Am I Actually the Strongest", "Linday Siedel", None)
+        Character("Irisphilia", "Am I Actually the Strongest", "Linday Siedel", None),
+        Character("Shio", "Happy Sugar Life", "N/A", "Misaka Kuno"),
+        Character("Klee", "Genshin Impact", None, "Misaka Kuno"),
+        Character("Hu Tao", "Genshin Impact", "Brinanna Knickerbocker", None),
+        Character("Lily", "Arifureta", "Brinanna Knickerbocker", "Noriko Shibasaki"),
+        Character("Filo", "The Rising of the Shield Hero", "Brinanna Knickerbocker", "Rina Hidaka"),
+        Character("Satou", "Happy Sugar Life", "N/A", "Kana Hanazawa")
     ]
 
 if __name__ == "__main__":
