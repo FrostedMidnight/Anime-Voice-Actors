@@ -29,5 +29,7 @@ def main():
         Character("Satou", "Happy Sugar Life", "N/A", "Kana Hanazawa")
     ]
 
+    print("outerbanks is one of my favorite shows")
+
 if __name__ == "__main__":
     main()
