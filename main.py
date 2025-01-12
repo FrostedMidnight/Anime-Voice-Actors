@@ -21,16 +21,14 @@ def main():
         Character("Kirisame", "Dr. Stone", "Lindsay Siedel", None),
         Character("Sense", "Frieren: Beyond Journey's End", "Lindsay Siedel", None),
         Character("Irisphilia", "Am I Actually the Strongest", "Linday Siedel", None),
-        Character("Shio", "Happy Sugar Life", "N/A", "Misaka Kuno"),
-        Character("Klee", "Genshin Impact", None, "Misaka Kuno"),
+        Character("Shio", "Happy Sugar Life", "N/A", "Misaki Kuno"),
+        Character("Klee", "Genshin Impact", None, "Misaki Kuno"),
         Character("Hu Tao", "Genshin Impact", "Brinanna Knickerbocker", None),
         Character("Lily", "Arifureta", "Brinanna Knickerbocker", "Noriko Shibasaki"),
         Character("Filo", "The Rising of the Shield Hero", "Brinanna Knickerbocker", "Rina Hidaka"),
         Character("Satou", "Happy Sugar Life", "N/A", "Kana Hanazawa"),
-        Character("Xiaolan", "The Apothecary Diaries", "N/A", "Misaka Kuno")
+        Character("Xiaolan", "The Apothecary Diaries", "N/A", "Misaki Kuno")
     ]
-
-    print("outerbanks is one of my favorite shows")
 
 if __name__ == "__main__":
     main()
