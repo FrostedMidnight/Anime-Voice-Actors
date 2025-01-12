@@ -26,7 +26,8 @@ def main():
         Character("Hu Tao", "Genshin Impact", "Brinanna Knickerbocker", None),
         Character("Lily", "Arifureta", "Brinanna Knickerbocker", "Noriko Shibasaki"),
         Character("Filo", "The Rising of the Shield Hero", "Brinanna Knickerbocker", "Rina Hidaka"),
-        Character("Satou", "Happy Sugar Life", "N/A", "Kana Hanazawa")
+        Character("Satou", "Happy Sugar Life", "N/A", "Kana Hanazawa"),
+        Character("Xiaolan", "The Apothecary Diaries", "N/A", "Misaka Kuno")
     ]
 
     print("outerbanks is one of my favorite shows")
