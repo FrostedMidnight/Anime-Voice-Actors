@@ -31,6 +31,7 @@ def main():
     ]
 
     #My favorite color is blue.
+    #My favorite color is red.
 
 if __name__ == "__main__":
     main()
