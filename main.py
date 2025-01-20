@@ -1,7 +1,39 @@
 import pandas as pd
 
-def find_by_en_va(df, name):
+def search_by_jp_va(df, name):
+    print(df[df["Japanese VA"] == name])
+
+def search_by_en_va(df, name):
     print(df[df["English VA"] == name])
+
+def user_interface(df):
+    again = True
+    name = ""
+
+    while(again):
+        print("1) Search by Japanese VA")
+        print("2) Search by English VA")
+        print("0) Quit")
+        choice = ""
+
+        while(not str(choice).isdigit() or int(choice) > 2):
+            try:
+                choice = input("Choice: ")
+                choice = int(choice)
+                if(choice > 2): raise
+            except:
+                if(not str(choice).isdigit()): print("Please enter a whole number.")             
+                elif(int(choice) > 2): print("Input is out of bounds.")                
+                else: print("Input Error: Something unexpected just happened.")
+
+        if(choice == 1):
+            name = input("Enter Name: ")
+            search_by_jp_va(df, name)
+        elif(choice == 2):
+            name = input("Enter Name: ")
+            search_by_en_va(df, name)
+        else:
+            again = False
 
 def main():
 
@@ -37,7 +69,7 @@ def main():
         ["Taiju", "Dr. Stone", "Makoto Furukawa", "Ricco Fajardo"],
         ["Leen", "In Another World With My Smartphone", "Sumire Uesaka", "Monical Rial"],
         ["Charlotte", "Parallel World Pharmacy", "Kaede Hondo", "Lindsay Siedel"],
-        ["Kirisame", "Dr. Stone", "Kaeda Hondo", "Lindsay Siedel"],
+        ["Kirisame", "Dr. Stone", "Kaede Hondo", "Lindsay Siedel"],
         ["Sense", "Frieren: Beyond Journey's End", "Haruka Terui", "Lindsay Siedel"],
         ["Irisphilia", "Am I Actually the Strongest", "Ami Koshimizu", "Linday Siedel"],
         ["Shio", "Happy Sugar Life", "Misaki Kuno", "N/A"],
@@ -47,19 +79,17 @@ def main():
         ["Filo", "The Rising of the Shield Hero", "Rina Hidaka", "Brinanna Knickerbocker"],
         ["Satou", "Happy Sugar Life", "Kana Hanazawa", "N/A"],
         ["Xiaolan", "The Apothecary Diaries", "Bree Han", "Misaki Kuno"],
-        ["Flora", "Spirit Chronicles", "Kaeda Hondo", "Madeleine Morris"],
+        ["Flora", "Spirit Chronicles", "Kaede Hondo", "Madeleine Morris"],
         ["Hakari", "The 100 Girlfriends", "Kaede Hondo", "Sarah Wiedenheft"],
-        ["Laika", "Slime 300", "Kaeda Hondo", "Rachelle Heger"],
-        ["Hifumi", "Blue Archive", "Kaeda Hondo", "N/A"],
+        ["Laika", "Slime 300", "Kaede Hondo", "Rachelle Heger"],
+        ["Hifumi", "Blue Archive", "Kaede Hondo", "N/A"],
         ["Suika", "Dr. Stone", "Karin Takahasi", "Sarah Wiedenheft"],
         ["Miledi", "Arifureta", "Yukana", "Sarah Wiedenheft"]
     ]
 
     va_df = pd.DataFrame(va_data, columns = ["Name", "Anime", "Japanese VA", "English VA"])
 
-    chosen_name = input("Enter an english va: ")
-
-    find_by_en_va(va_df, chosen_name)
+    user_interface(va_df)
 
 if __name__ == "__main__":
     main()
