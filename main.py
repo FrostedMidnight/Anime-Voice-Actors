@@ -60,7 +60,8 @@ def main():
 
     male_en_va_list = [
         "Matt Shipman",
-        "Ricco Fajardo"
+        "Ricco Fajardo",
+        "Chris Guerrero"
     ]
 
     female_jp_va_list = [
@@ -102,7 +103,10 @@ def main():
         ["Laika", "Slime 300", "Kaede Hondo", "Rachelle Heger"],
         ["Hifumi", "Blue Archive", "Kaede Hondo", "N/A"],
         ["Suika", "Dr. Stone", "Karin Takahasi", "Sarah Wiedenheft"],
-        ["Miledi", "Arifureta", "Yukana", "Sarah Wiedenheft"]
+        ["Miledi", "Arifureta", "Yukana", "Sarah Wiedenheft"],
+        ["Ainz", "Overlord", "Satoshi Hino", "Chris Guerrero"],
+        ["Eisen", "Frieren: Beyond Journey's End", "Youji Ueda", "Chris Guerrero"],
+        ["Laurent", "Spirit Chronicles", "Takuya Nakashima", "Chris Guerrero"]
     ]
 
     va_df = pd.DataFrame(va_data, columns = ["Name", "Anime", "Japanese VA", "English VA"])
