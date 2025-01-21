@@ -6,34 +6,46 @@ def search_by_jp_va(df, name):
 def search_by_en_va(df, name):
     print(df[df["English VA"] == name])
 
-def user_interface(df):
-    again = True
-    name = ""
+def user_interface(df, compiled_list):
+    running = True
+    input_name = ""
 
-    while(again):
+    while(running):
         print("1) Search by Japanese VA")
         print("2) Search by English VA")
+        print("3) Print Female English VA's")
+        print("4) Print Male English VA's")
+        print("5) Print Female Japanese VA's")
         print("0) Quit")
         choice = ""
 
-        while(not str(choice).isdigit() or int(choice) > 2):
+        while(not str(choice).isdigit() or int(choice) > 5):
             try:
                 choice = input("Choice: ")
                 choice = int(choice)
-                if(choice > 2): raise
+                if(choice > 5): raise
             except:
-                if(not str(choice).isdigit()): print("Please enter a whole number.")             
-                elif(int(choice) > 2): print("Input is out of bounds.")                
+                if(not str(choice).isdigit()): print("Please enter a whole number.")
+                elif(int(choice) > 5): print("Input is out of bounds.")
                 else: print("Input Error: Something unexpected just happened.")
 
         if(choice == 1):
-            name = input("Enter Name: ")
-            search_by_jp_va(df, name)
+            input_name = input("Enter Name: ")
+            search_by_jp_va(df, input_name)
         elif(choice == 2):
-            name = input("Enter Name: ")
-            search_by_en_va(df, name)
+            input_name = input("Enter Name: ")
+            search_by_en_va(df, input_name)
+        elif(choice == 3):
+            for name in compiled_list[0]:
+                print(f"* {name}")
+        elif(choice == 4):
+            for name in compiled_list[1]:
+                print(f"* {name}")
+        elif(choice == 5):
+            for name in compiled_list[2]:
+                print(f"* {name}")
         else:
-            again = False
+            running = False
 
 def main():
 
@@ -55,6 +67,12 @@ def main():
         "Misaki Kuno",
         "Kaede Kondo",
         "Rie Takahashi"
+    ]
+
+    compiled_va_list = [
+        female_en_va_list,
+        male_en_va_list,
+        female_jp_va_list
     ]
 
     va_data = [
@@ -89,7 +107,7 @@ def main():
 
     va_df = pd.DataFrame(va_data, columns = ["Name", "Anime", "Japanese VA", "English VA"])
 
-    user_interface(va_df)
+    user_interface(va_df, compiled_va_list)
 
 if __name__ == "__main__":
     main()
