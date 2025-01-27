@@ -61,7 +61,8 @@ def main():
     male_en_va_list = [
         "Matt Shipman",
         "Ricco Fajardo",
-        "Chris Guerrero"
+        "Chris Guerrero",
+        "Kaiji Tang"
     ]
 
     female_jp_va_list = [
@@ -109,6 +110,9 @@ def main():
         ["Laurent", "Spirit Chronicles", "Takuya Nakashima", "Chris Guerrero"],
         ["Sue", "Isekai Smartphone", "Nanami Yamashita", "Sarah Wiedenheft"],
         ["Tooru", "Miss Kobayashi's Dragon Maid", "Yuuki Kuwahara", "Sarah Wiedenheft"],
+        ["Dazai", "Bungo Stray Dogs", "Mamoru Miyano", "Kaiji Tang"],
+        ["Gojou", "Jujutsu Kaisen", "Yuuichi Nakamura", "Kaiji Tang"],
+        ["Jinshi", "The Apothecary Diaries", "Takeo Ootsuka", "Kaiji Tang"],
         ["Marina", "I Left My A-Rank Party to Help My Former Students Reach the Dungeon Depths!", "Hana Inami", "Lindsay Seidel"]
     ]
 
