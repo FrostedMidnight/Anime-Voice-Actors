@@ -54,7 +54,7 @@ def main():
         "Brittney Karbowski",
         "Tia Ballard",
         "Brinanna Knickerbocker",
-        "Lindsay Siedel",
+        "Lindsay Seidel",
         "Sarah Wiedenheft"
     ]
 
@@ -87,10 +87,10 @@ def main():
         ["Chrome", "Dr. Stone", "Ren Satou", "Matt Shipman"],
         ["Taiju", "Dr. Stone", "Makoto Furukawa", "Ricco Fajardo"],
         ["Leen", "In Another World With My Smartphone", "Sumire Uesaka", "Monical Rial"],
-        ["Charlotte", "Parallel World Pharmacy", "Kaede Hondo", "Lindsay Siedel"],
-        ["Kirisame", "Dr. Stone", "Kaede Hondo", "Lindsay Siedel"],
-        ["Sense", "Frieren: Beyond Journey's End", "Haruka Terui", "Lindsay Siedel"],
-        ["Irisphilia", "Am I Actually the Strongest", "Ami Koshimizu", "Linday Siedel"],
+        ["Charlotte", "Parallel World Pharmacy", "Kaede Hondo", "Lindsay Seidel"],
+        ["Kirisame", "Dr. Stone", "Kaede Hondo", "Lindsay Seidel"],
+        ["Sense", "Frieren: Beyond Journey's End", "Haruka Terui", "Lindsay Seidel"],
+        ["Irisphilia", "Am I Actually the Strongest", "Ami Koshimizu", "Lindsay Seidel"],
         ["Shio", "Happy Sugar Life", "Misaki Kuno", "N/A"],
         ["Klee", "Genshin Impact", "Misaki Kuno", "Poonam Basu"],
         ["Hu Tao", "Genshin Impact", "Rie Takahashi", "Brinanna Knickerbocker"],
@@ -106,7 +106,10 @@ def main():
         ["Miledi", "Arifureta", "Yukana", "Sarah Wiedenheft"],
         ["Ainz", "Overlord", "Satoshi Hino", "Chris Guerrero"],
         ["Eisen", "Frieren: Beyond Journey's End", "Youji Ueda", "Chris Guerrero"],
-        ["Laurent", "Spirit Chronicles", "Takuya Nakashima", "Chris Guerrero"]
+        ["Laurent", "Spirit Chronicles", "Takuya Nakashima", "Chris Guerrero"],
+        ["Sue", "Isekai Smartphone", "Nanami Yamashita", "Sarah Wiedenheft"],
+        ["Tooru", "Miss Kobayashi's Dragon Maid", "Yuuki Kuwahara", "Sarah Wiedenheft"],
+        ["Marina", "I Left My A-Rank Party to Help My Former Students Reach the Dungeon Depths!", "Hana Inami", "Lindsay Seidel"]
     ]
 
     va_df = pd.DataFrame(va_data, columns = ["Name", "Anime", "Japanese VA", "English VA"])
