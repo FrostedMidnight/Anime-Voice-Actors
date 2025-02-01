@@ -115,9 +115,9 @@ def main():
         ["Gojou", "Jujutsu Kaisen", "Yuuichi Nakamura", "Kaiji Tang"],
         ["Jinshi", "The Apothecary Diaries", "Takeo Ootsuka", "Kaiji Tang"],
         ["Marina", "I Left My A-Rank Party to Help My Former Students Reach the Dungeon Depths!", "Hana Inami", "Lindsay Seidel"],
-        ["Kachina", "Genshin Impact", "Yurika", "Kristen McGuire"],
+        ["Kachina", "Genshin Impact", "Yurika Kubo", "Kristen McGuire"],
         ["Akane", "Oshi no Ko", "Manaka Iwanmi", "Kristen McGuire"],
-        ["Mukuro", "Date A Live", "Akari", "Kristen McGuire"],
+        ["Mukuro", "Date A Live", "Akari Kageyama", "Kristen McGuire"],
         ["Ruri", "Dr. Stone", "Reina Ueda", "Kristen McGuire"],
         ["Alice", "The Duke of Death and His Maid", "Ayumi Mano", "Kristen McGuire"]
     ]
