@@ -55,7 +55,8 @@ def main():
         "Tia Ballard",
         "Brinanna Knickerbocker",
         "Lindsay Seidel",
-        "Sarah Wiedenheft"
+        "Sarah Wiedenheft",
+        "Kristen McGuire"
     ]
 
     male_en_va_list = [
@@ -113,7 +114,12 @@ def main():
         ["Dazai", "Bungo Stray Dogs", "Mamoru Miyano", "Kaiji Tang"],
         ["Gojou", "Jujutsu Kaisen", "Yuuichi Nakamura", "Kaiji Tang"],
         ["Jinshi", "The Apothecary Diaries", "Takeo Ootsuka", "Kaiji Tang"],
-        ["Marina", "I Left My A-Rank Party to Help My Former Students Reach the Dungeon Depths!", "Hana Inami", "Lindsay Seidel"]
+        ["Marina", "I Left My A-Rank Party to Help My Former Students Reach the Dungeon Depths!", "Hana Inami", "Lindsay Seidel"],
+        ["Kachina", "Genshin Impact", "Yurika", "Kristen McGuire"],
+        ["Akane", "Oshi no Ko", "Manaka Iwanmi", "Kristen McGuire"],
+        ["Mukuro", "Date A Live", "Akari", "Kristen McGuire"],
+        ["Ruri", "Dr. Stone", "Reina Ueda", "Kristen McGuire"],
+        ["Alice", "The Duke of Death and His Maid", "Ayumi Mano", "Kristen McGuire"]
     ]
 
     va_df = pd.DataFrame(va_data, columns = ["Name", "Anime", "Japanese VA", "English VA"])
