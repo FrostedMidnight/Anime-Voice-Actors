@@ -119,7 +119,9 @@ def main():
         ["Akane", "Oshi no Ko", "Manaka Iwanmi", "Kristen McGuire"],
         ["Mukuro", "Date A Live", "Akari Kageyama", "Kristen McGuire"],
         ["Ruri", "Dr. Stone", "Reina Ueda", "Kristen McGuire"],
-        ["Alice", "The Duke of Death and His Maid", "Ayumi Mano", "Kristen McGuire"]
+        ["Alice", "The Duke of Death and His Maid", "Ayumi Mano", "Kristen McGuire"],
+        ["Riri", "Assault Lily: Bouquet", "Hikaru Akao", "Sarah Wiedenheft"],
+        ["Yuyu", "Assault Lily: Bouquet", "Yuuko Natsuyoshi", "Lindsay Seidel"]
     ]
 
     va_df = pd.DataFrame(va_data, columns = ["Name", "Anime", "Japanese VA", "English VA"])
