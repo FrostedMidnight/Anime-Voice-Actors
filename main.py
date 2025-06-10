@@ -120,6 +120,9 @@ def main():
         ["Mukuro", "Date A Live", "Akari Kageyama", "Kristen McGuire"],
         ["Ruri", "Dr. Stone", "Reina Ueda", "Kristen McGuire"],
         ["Alice", "The Duke of Death and His Maid", "Ayumi Mano", "Kristen McGuire"],
+        ["Riri", "Assault Lily: Bouquet", "Hikaru Akao", "Sarah Wiedenheft"],
+        ["Yuyu", "Assault Lily: Bouquet", "Yuuko Natsuyoshi", "Lindsay Seidel"],
+        ["Wiz", "Konosuba", "Yui Horie", "Brinanna Knickerbocker"],
         ["Tsukino", "Tomodachi Game", "Shizuka Itou", "Monica Rial"]
     ]
 
