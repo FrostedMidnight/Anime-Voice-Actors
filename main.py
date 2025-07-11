@@ -63,7 +63,8 @@ def main():
         "Matt Shipman",
         "Ricco Fajardo",
         "Chris Guerrero",
-        "Kaiji Tang"
+        "Kaiji Tang",
+        "Aaron Dismuke"
     ]
 
     female_jp_va_list = [
@@ -123,7 +124,10 @@ def main():
         ["Riri", "Assault Lily: Bouquet", "Hikaru Akao", "Sarah Wiedenheft"],
         ["Yuyu", "Assault Lily: Bouquet", "Yuuko Natsuyoshi", "Lindsay Seidel"],
         ["Wiz", "Konosuba", "Yui Horie", "Brinanna Knickerbocker"],
-        ["Tsukino", "Tomodachi Game", "Shizuka Itou", "Monica Rial"]
+        ["Tsukino", "Tomodachi Game", "Shizuka Itou", "Monica Rial"],
+        ["Senkuu", "Dr. Stone", "Yuusuke Kobayashi", "Aaron Dismuke"],
+        ["Elan", "Mobile Suit Gundam: The Witch From Mercury", "Natsuki Hanae", "Aaron Dismuke"],
+        ["Martin", "Mobile Suit Gundam: The Witch From Mercury", "Junya Enoki", "Matt Shipman"]
     ]
 
     va_df = pd.DataFrame(va_data, columns = ["Name", "Anime", "Japanese VA", "English VA"])
