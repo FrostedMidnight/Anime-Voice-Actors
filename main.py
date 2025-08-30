@@ -127,7 +127,8 @@ def main():
         ["Tsukino", "Tomodachi Game", "Shizuka Itou", "Monica Rial"],
         ["Senkuu", "Dr. Stone", "Yuusuke Kobayashi", "Aaron Dismuke"],
         ["Elan", "Mobile Suit Gundam: The Witch From Mercury", "Natsuki Hanae", "Aaron Dismuke"],
-        ["Martin", "Mobile Suit Gundam: The Witch From Mercury", "Junya Enoki", "Matt Shipman"]
+        ["Martin", "Mobile Suit Gundam: The Witch From Mercury", "Junya Enoki", "Matt Shipman"],
+        ["Vivian", "Zenless Zone Zero", "Mizuno Saku", "Sarah Wiedenheft"]
     ]
 
     va_df = pd.DataFrame(va_data, columns = ["Name", "Anime", "Japanese VA", "English VA"])
